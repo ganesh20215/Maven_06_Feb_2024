@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-02T08:54:49 IST" name="mavendemo.TestNGExample" finished-at="2024-05-02T08:55:05 IST" duration-ms="16013">
+    <groups>
+    </groups>
+    <test started-at="2024-05-02T08:54:49 IST" name="Command line test" finished-at="2024-05-02T08:55:05 IST" duration-ms="16013">
+      <class name="mavendemo.TestNGExample">
+        <test-method signature="basicOfTestNG1()[pri:0, instance:mavendemo.TestNGExample@5d20e46]" started-at="2024-05-02T08:54:49 IST" name="basicOfTestNG1" finished-at="2024-05-02T08:54:58 IST" duration-ms="8414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicOfTestNG1 -->
+        <test-method signature="basicOfTestNG2()[pri:0, instance:mavendemo.TestNGExample@5d20e46]" started-at="2024-05-02T08:54:58 IST" name="basicOfTestNG2" finished-at="2024-05-02T08:55:05 IST" duration-ms="7570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicOfTestNG2 -->
+      </class> <!-- mavendemo.TestNGExample -->
+    </test> <!-- Command line test -->
+  </suite> <!-- mavendemo.TestNGExample -->
+</testng-results>

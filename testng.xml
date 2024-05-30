@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="testng.failtestscriptexecution.AutomaticallyReRun"/>
+    </listeners>
+<!--    <groups>
+        <run>
+            <include name="smoke"/>
+            <include name="sanity"/>
+        </run>
+    </groups>-->
+<!--    <parameter name="browserName" value="edge"/>
+    <parameter name="courseName" value="Java"/>
+    <parameter name="cityName" value="Nashik"/>-->
+    <test verbose="2" preserve-order="true" parallel="false" thread-count="3" name="D:/repo1/clone/Maven_06_Feb_2024">
+        <classes>
+<!--            <class name="mavendemo.TestNGExample"/>
+            <class name="testng.annotations.BeforeAfterAnotherExample"/>
+            <class name="testng.annotations.BeforeAfterTestExample"/>
+            <class name="testng.annotations.BeforeAfterMethodExample"/>
+            <class name="testng.annotations.DependsOnGroupExample"/>
+            <class name="testng.annotations.DependsOnMethodExample"/>
+            <class name="testng.annotations.InvocationCountExample"/>
+            <class name="testng.priority.PriorityExample"/>-->
+<!--            <class name="testng.assertion.SoftAssertExample"/>
+            <class name="testng.assertion.HardAssertExample"/>
+            <class name="mavendemo.TestNGExample"/>-->
+<!--            <class name="testng.assertion.HardAssertExample"/>-->
+            <class name="testng.priority.PriorityExample"/>
+<!--            <class name="testng.parameterization.DataProviderWithExcel"/>-->
+<!--            <class name="testng.assertion.SoftAssertExample"/>-->
+        </classes>
+    </test>
+</suite>
